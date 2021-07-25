@@ -1,0 +1,25 @@
+﻿@model Models.LineItem
+
+<table>
+    <input type="hidden" value="@Model.Id">
+    <tr>
+        <td>Description</td>
+        <td>@Html.DisplayFor(model => Model.Description)</td>
+    </tr>
+    <tr>
+        <td>Account</td>
+        <td>@Html.DisplayFor(model => Model.Account)</td>
+    </tr>
+    <tr>
+        <td>Quantity</td>
+        <td>@Html.DisplayFor(model => Model.Quantity)</td>
+    </tr>
+    <tr>
+        <td>Cost</td>
+        <td>@Html.DisplayFor(model => Model.Cost)</td>
+    </tr>
+    <tr>
+        <td>Billable</td>
+        <td>@Html.DisplayFor(model => Model.Billable)</td>
+    </tr>
+</table>

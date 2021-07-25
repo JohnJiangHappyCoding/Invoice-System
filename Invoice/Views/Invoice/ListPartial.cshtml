@@ -1,0 +1,37 @@
+﻿@model List<Models.LineItem>
+
+
+@if (Model == null || Model.Count == 0)
+{
+    <tr><td colspan="7">No Items Added</td></tr>
+}
+else
+{
+    for (int i = 0; i < Model.Count; i++)
+    {
+        <tr>
+            <td>
+                <div class="checkbox">
+                    @*<label>
+                            <input type="checkbox" value="@Model[i].Id">
+                        </label>*@
+                    @i
+                </div>
+            </td>
+            <td>@Html.DisplayFor(model => Model[i].Description)</td>
+            <td>@Html.DisplayFor(model => Model[i].Account)</td>
+            <td>@Html.DisplayFor(model => Model[i].Quantity)</td>
+            <td>@Html.DisplayFor(model => Model[i].Cost)</td>
+            <td>@Html.DisplayFor(model => Model[i].Billable)</td>
+            @*<td>
+                    <div class="inner-input">
+                        <div class="to_chose">
+                            <input type="checkbox" class="lcs_check" name="dept" value="10" autocomplete="off" />
+                        </div>
+                    </div>
+                </td>*@
+            <td><button class="btn btn-info" id="eidtItem" onclick="edit('@Model[i].Id','@Model[i].Description','@Model[i].Account','@Model[i].Quantity',@Model[i].Cost,'@Model[i].Billable')">Edit</button></td>
+            <td><button class="btn btn-danger" id="deleteItem" onclick="del('@Model[i].Id')">Delete</button></td>
+        </tr>
+    }
+}

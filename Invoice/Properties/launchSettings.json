@@ -1,0 +1,27 @@
+﻿{
+  "Settings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "Kestrel": {
+      "applicationUrl": "http://localhost:50183",
+      "sslPort": 44309
+    }
+  },
+  "profiles": {
+    "Kestrel": {
+      "commandName": "Kestrel",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WebApplication1": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5000;http://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

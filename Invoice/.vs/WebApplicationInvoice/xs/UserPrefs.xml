@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{EA62618C-24A4-4FB0-9392-39531262601A}|WebApplication1">
+  <MonoDevelop.Ide.ItemProperties.WebApplicationInvoice PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/InvoiceController.cs">
+    <Files>
+      <File FileName="Controllers/InvoiceController.cs" Line="130" Column="42" />
+      <File FileName="Models/Invoice.cs" Line="13" Column="10" />
+      <File FileName="appsettings.json" Line="10" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApplicationInvoice" expanded="True">
+            <Node name="WebApplicationInvoice" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="InvoiceController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Invoice" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/Niki/Desktop/Software Project/git/Syntaq-Invoicing-Test/AndreyevInterview/andreyev-interview</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
