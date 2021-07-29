@@ -2684,11 +2684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Niki/Desktop/Software Project/git/Syntaq-Invoicing-Test/AndreyevInterview/andreyev-interview/WebApplicationInvoice.csproj",
+      "projectUniqueName": "/Users/Niki/Desktop/Software Project/git/Invoice-System/Invoice/WebApplicationInvoice.csproj",
       "projectName": "WebApplicationInvoice",
-      "projectPath": "/Users/Niki/Desktop/Software Project/git/Syntaq-Invoicing-Test/AndreyevInterview/andreyev-interview/WebApplicationInvoice.csproj",
+      "projectPath": "/Users/Niki/Desktop/Software Project/git/Invoice-System/Invoice/WebApplicationInvoice.csproj",
       "packagesPath": "/Users/Niki/.nuget/packages/",
-      "outputPath": "/Users/Niki/Desktop/Software Project/git/Syntaq-Invoicing-Test/AndreyevInterview/andreyev-interview/obj/",
+      "outputPath": "/Users/Niki/Desktop/Software Project/git/Invoice-System/Invoice/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Niki/.config/NuGet/NuGet.Config"

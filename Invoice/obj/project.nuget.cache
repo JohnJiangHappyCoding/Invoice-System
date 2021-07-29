@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Z7NpNj00XBd8yQTPkeXYdZ6CJYMqtEvGlkBBaCpM6HcR/t9JYKVqKsPAfpo+yhLBuJGOyr4EMgSXUhUVXPwFw==",
+  "dgSpecHash": "Osvyxz+9V+TBH5KnUMXcXrqLGUGd9YaIhK2aXREPpc1oBWROqm406tVZY1QYzE9UJLQ/fw9geX4AHbI2bfXXjQ==",
   "success": true,
-  "projectFilePath": "/Users/Niki/Desktop/Software Project/git/Syntaq-Invoicing-Test/AndreyevInterview/andreyev-interview/WebApplicationInvoice.csproj",
+  "projectFilePath": "/Users/Niki/Desktop/Software Project/git/Invoice-System/Invoice/WebApplicationInvoice.csproj",
   "expectedPackageFiles": [
     "/Users/Niki/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/Niki/.nuget/packages/microsoft.netcore.platforms/1.0.1/microsoft.netcore.platforms.1.0.1.nupkg.sha512",
